@@ -328,6 +328,16 @@ body {
   height: 100%;
 }
 
+.leaflet-control-container .leaflet-top.leaflet-right {
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+}
+
+.leaflet-control-zoom {
+  margin: 0 !important;
+}
+
 .leaflet-tile {
   filter: saturate(1.35) contrast(1.05) brightness(0.98);
 }

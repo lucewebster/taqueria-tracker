@@ -3,8 +3,6 @@ const map = L.map('map', {
   zoomControl: false
 }).setView([-37.8136, 144.9631], 13);
 
-L.control.zoom({ position: 'topleft' }).addTo(map);
-
 // Add a clean, muted base map layer
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
   maxZoom: 19,
